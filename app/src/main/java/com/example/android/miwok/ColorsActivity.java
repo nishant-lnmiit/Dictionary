@@ -97,7 +97,7 @@ public class ColorsActivity extends AppCompatActivity {
     }
 
     private void releaseMediaPlayer() {
-        // If the media player is not null, then it may be currently playing a sound.
+        
         if (mMediaPlayer != null) {
             // Regardless of the current state of the media player, release its resources
             // because we no longer need it.
